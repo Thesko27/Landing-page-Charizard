@@ -40,18 +40,84 @@ body {
 
 .poke {
     display: flex;
-    color:var(--writ);
+    color: var(--writ);
     text-align: center;
     text-decoration: none;
     gap: 18px;
 }
+
 /*header the and*/
 
-
-main {
-    background-color: rgb(57, 46, 221);
-    text-align: center;
+.manin-container {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.manin-container h1 {
+    display: flex;
+    align-items: center;
+    color: var(--yell);
+    justify-content: center;
+    font-size: 180px;
+    position: absolute;
+
+}
+
+.manin-container h2 {
+    color: var(--writ);
+    font-size: 110px;
+    top: 348px;
+    position: absolute;
+}
+
+.manin-container img {
+    position: absolute;
+    width: 568px;
+    height: 680px;
+    bottom: 20px;
+    transform: scaleX(-1);
+}
+
+.manin-container h3 {
+
+    color: var(--blue);
+    align-items: center;
+    font-size: 30px;
+    position: absolute;
+    top: 460px;
+    left: 195px;
+
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: var(--blue);
+    width: 300px;
+    height: 150px;
+    top: 150px;
+    left: -330px;
+}
+
+.down {
+    position: absolute;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: var(--writ);
+    font-size: 36px;
+    background-color: var(--blue);
+    bottom: 150px;
+    left: 1000px;
+    
 }
 
 footer {
