@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #C76104;
+    --blue: #022A43;
+    --yell: #E99B06;
+    --writ: #fff;
+
+
+}
+
+body {
+
+    background-color: var(--orange);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px 20px 100px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+
+}
+
+.container-header img {
+    display: flex;
+    align-items: center;
+    width: 60px;
+    gap: 18px;
+
+}
+
+.poke {
+    display: flex;
+    color:var(--writ);
+    text-align: center;
+    text-decoration: none;
+    gap: 18px;
+}
+/*header the and*/
+
+
+main {
+    background-color: rgb(57, 46, 221);
+    text-align: center;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: rgb(180, 9, 129);
+    text-align: center;
+}
