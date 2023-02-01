@@ -22,6 +22,7 @@ body {
     padding: 50px 100px 20px 100px;
 }
 
+/*start*/
 .container-header {
     display: flex;
     align-items: center;
@@ -48,6 +49,9 @@ body {
 
 /*header the and*/
 
+
+
+/*start*/
 .manin-container {
     display: flex;
     flex-direction: column;
@@ -119,9 +123,14 @@ body {
     left: 1000px;
     
 }
+/*main the and*/
 
+
+
+/*start*/
 footer {
     text-align: center;
     color: var(--yell);
     font-size: 500;
 }
+/*footer the and*/
