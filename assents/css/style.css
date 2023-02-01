@@ -121,6 +121,7 @@ body {
 }
 
 footer {
-    background-color: rgb(180, 9, 129);
     text-align: center;
+    color: var(--yell);
+    font-size: 500;
 }
