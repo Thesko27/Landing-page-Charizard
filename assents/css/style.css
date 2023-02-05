@@ -37,8 +37,25 @@ body {
     width: 60px;
     gap: 18px;
     cursor: pointer;
+    transition: all 5s;
+    animation: rotation 5s ease-in-out infinite;
 }
+@keyframes rotation {
+    0% {
+    rotate: 0deg;
+        
+    }
 
+    50% {
+    
+        rotate: 360deg;
+    }
+
+    100% {
+        rotate: 360deg;;
+        
+    }
+}
 .poke {
     display: flex;
     color: var(--writ);
