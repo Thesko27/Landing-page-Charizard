@@ -40,22 +40,25 @@ body {
     transition: all 5s;
     animation: rotation 5s ease-in-out infinite;
 }
+
 @keyframes rotation {
     0% {
-    rotate: 0deg;
-        
+        rotate: 0deg;
+
     }
 
     50% {
-    
+
         rotate: 360deg;
     }
 
     100% {
-        rotate: 360deg;;
-        
+        rotate: 360deg;
+        ;
+
     }
 }
+
 .poke {
     display: flex;
     color: var(--writ);
@@ -110,17 +113,17 @@ body {
 @keyframes float {
     0% {
         transform: translateY(0px);
-        
+
     }
 
     50% {
         transform: translateY(-30px);
-        
+
     }
 
     100% {
         transform: translateY(0px);
-        
+
     }
 }
 
@@ -222,6 +225,21 @@ footer {
         left: 98px;
     }
 
+    .down {
+        position: absolute;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        color: var(--writ);
+        font-size: 36px;
+        background-color: var(--blue);
+        bottom: 20px;
+        left: 50px;
+    }
+
     .text {
         display: flex;
         position: relative;
@@ -245,14 +263,13 @@ footer {
     }
 
     footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+        position: absolute;
         color: var(--yell);
         font-size: 300;
         width: 250px;
+        bottom: -5px;
+        left: 25px;
+       
 
     }
 }
