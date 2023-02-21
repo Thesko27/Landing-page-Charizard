@@ -5,16 +5,13 @@
 }
 
 :root {
-    --orange: #C76104;
-    --blue: #022A43;
-    --yell: #E99B06;
+    --orange: #c76104;
+    --blue: #022a43;
+    --yell: #e99b06;
     --writ: #fff;
-
-
 }
 
 body {
-
     background-color: var(--orange);
     height: 100vh;
     display: flex;
@@ -27,14 +24,12 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-
-
 }
 
 .container-header img {
     display: flex;
     align-items: center;
-    width: 60px;
+    width: 5%;
     gap: 18px;
     cursor: pointer;
     transition: all 5s;
@@ -44,18 +39,14 @@ body {
 @keyframes rotation {
     0% {
         rotate: 0deg;
-
     }
 
     50% {
-
         rotate: 360deg;
     }
 
     100% {
         rotate: 360deg;
-        ;
-
     }
 }
 
@@ -69,8 +60,6 @@ body {
 
 /*header the and*/
 
-
-
 /*start*/
 .manin-container {
     display: flex;
@@ -78,8 +67,6 @@ body {
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-
-
 }
 
 .manin-container h1 {
@@ -89,7 +76,6 @@ body {
     justify-content: center;
     font-size: 180px;
     position: absolute;
-
 }
 
 .manin-container h2 {
@@ -101,42 +87,35 @@ body {
 
 .manin-container img {
     position: absolute;
-    width: 568px;
-    height: 680px;
-    bottom: 20px;
+    width: 40%;
+    height: 80%;
+    bottom: 10%;
     transform: scaleX(-1);
-    transition: all, .5s;
+    transition: all, 0.5s;
     animation: float 5s ease-in-out infinite;
-
 }
 
 @keyframes float {
     0% {
         transform: translateY(0px);
-
     }
 
     50% {
         transform: translateY(-30px);
-
     }
 
     100% {
         transform: translateY(0px);
-
     }
 }
 
 .manin-container h3 {
-
     color: var(--blue);
     align-items: center;
     font-size: 30px;
     position: absolute;
     top: 460px;
     left: 195px;
-
-
 }
 
 .text {
@@ -164,7 +143,6 @@ body {
     bottom: 150px;
     left: 1000px;
     transition: all, 3s;
-
 }
 
 .down:hover {
@@ -173,8 +151,6 @@ body {
 }
 
 /*main the and*/
-
-
 
 /*start*/
 footer {
@@ -185,43 +161,34 @@ footer {
 
 /*footer the and*/
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
     .container-header img {
         display: flex;
         align-items: center;
-        width: 30px;
+        width: 10%;
         gap: 18px;
         cursor: pointer;
-
     }
 
-
     .manin-container h1 {
-        display: flex;
-        align-items: center;
         color: var(--yell);
-        justify-content: center;
-        font-size: 60px;
+        font-size: 370%;
         position: absolute;
-
     }
 
     .manin-container h2 {
         color: var(--writ);
         font-size: 40px;
-        top: 380px;
+        top: 52%;
         position: absolute;
     }
 
     .manin-container h3 {
-        display: flex;
-        align-items: center;
         color: var(--blue);
         align-items: center;
         font-size: 15px;
         position: absolute;
-        top: 560px;
+        top: 74%;
         left: 98px;
     }
 
@@ -236,18 +203,17 @@ footer {
         color: var(--writ);
         font-size: 36px;
         background-color: var(--blue);
-        bottom: 20px;
-        left: 50px;
+        bottom: 3%;
+        left: 22%;
     }
 
     .text {
-        display: flex;
-        position: relative;
+        position: absolute;
         color: var(--blue);
         width: 220px;
         height: 130px;
-        top: 220px;
-        left: -1px;
+        top: 74%;
+        left: 22%;
     }
 
     .manin-container img {
@@ -259,17 +225,14 @@ footer {
         height: 450px;
         bottom: 150px;
         transform: scaleX(-1);
-
     }
 
     footer {
-        position: absolute;
+        position: relative;
         color: var(--yell);
         font-size: 300;
         width: 250px;
-        bottom: -5px;
-        left: 25px;
-       
-
+        bottom: -3%;
+        left: -30%;
     }
 }
